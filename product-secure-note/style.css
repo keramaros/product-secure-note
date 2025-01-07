@@ -1,0 +1,20 @@
+.psnp-title {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.psnp label {
+    cursor: pointer;
+}
+
+.psnp label:hover {
+    text-decoration: underline;
+}
+
+#psnp-checkbox, #psnp-checkbox:not(:checked) ~ span, #psnp-checkbox:checked ~ label {
+    display: none;
+}
+
+.wp-block-woocommerce-add-to-cart-form .variations_button {
+    --whole-width-in-grid: span 3;
+}
